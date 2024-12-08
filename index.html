@@ -4,89 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre Mi</title>
+    <link rel="stylesheet" href="./entregable 2/style.css">
 </head>
 
 <body>
-    <h1>Sergio Andrés Hernández Mirabal</h1>
-    <h2><i>Mi Biografia</i></h2>
-    <p>Hola, soy Sergio, una persona apasionada por aprender y siempre en busca de nuevas experiencias que me
-        permitan crecer tanto personal como profesionalmente. Me considero alguien curioso, optimista y comprometido con
-        mis objetivos, buscando siempre maneras de mejorar en todo lo que hago. Me gusta rodearme de personas que
-        compartan mis valores y de aquellos que me desafíen a ser mejor. Disfruto de las pequeñas cosas de la vida, y
-        siempre trato de mantener una actitud positiva ante los retos que la vida me presenta.
-    </p>
-    <p>En cuanto a mis estudios, he tenido la oportunidad de formarme en Tecnico de Sistemas, lo que me ha permitido
-        desarrollar una comprensión profunda sobre los computadores ysu funcionamiento, ademas un gusto por la ciencia
-        de la informacion. A lo largo de mi trayectoria académica, he aprendido no solo los conceptos
-        fundamentales de mi área, sino también la importancia de la disciplina, el trabajo en equipo y la creatividad
-        para resolver problemas complejos. Estoy en constante búsqueda de nuevos conocimientos, y mi pasión por mi campo
-        me impulsa a seguir formándome y a aplicar lo aprendido en proyectos prácticos que me permitan hacer una
-        diferencia en el mundo.
-    </p>
-    <img src="./pasion 1.jpg" alt="">
-    <br>
+    <header>
+        <h1>Sergio Andrés Hernández Mirabal</h1>
+        <nav>
+            <a href="#bio">Biografia</a>
+            <a href="#pas">Mis Pasiones</a>
+            <a href="#caja_h">Cosas Que Hacer</a>
+            <a href="calculadora.html">Calculadora</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="bio">
+            <div class="container">
+                <h2 class="bio1"><i>Mi Biografia</i></h2>
+                <p class="bio1">Hola, soy Sergio, una persona apasionada por aprender y siempre en busca de nuevas
+                    experiencias que
+                    me
+                    permitan crecer tanto personal como profesionalmente. Me considero alguien curioso, optimista y
+                    comprometido
+                    con
+                    mis objetivos, buscando siempre maneras de mejorar en todo lo que hago. Me gusta rodearme de
+                    personas
+                    que
+                    compartan mis valores y de aquellos que me desafíen a ser mejor. Disfruto de las pequeñas cosas de
+                    la
+                    vida,
+                    y
+                    siempre trato de mantener una actitud positiva ante los retos que la vida me presenta.
+                </p>
+                <p class="bio2">En cuanto a mis estudios, he tenido la oportunidad de formarme en Tecnico de Sistemas,
+                    lo que me ha
+                    permitido
+                    desarrollar una comprensión profunda sobre los computadores ysu funcionamiento, ademas un gusto por
+                    la
+                    ciencia
+                    de la informacion. A lo largo de mi trayectoria académica, he aprendido no solo los conceptos
+                    fundamentales de mi área, sino también la importancia de la disciplina, el trabajo en equipo y la
+                    creatividad
+                    para resolver problemas complejos. Estoy en constante búsqueda de nuevos conocimientos, y mi pasión
+                    por
+                    mi
+                    campo
+                    me impulsa a seguir formándome y a aplicar lo aprendido en proyectos prácticos que me permitan hacer
+                    una
+                    diferencia en el mundo.
+                </p>
+                <img src="./pasion 1.jpg" alt="" class="bio2">
+            </div>
+        </section>
+        <section id="pas">
+            <div class="container">
+                <h2>Mis Pasiones</h2>
+                <ul>
+                    <li>Cocinar</li>
+                    <li>Futbol</li>
+                    <li>Viajar</li>
+                </ul>
+            </div>
+        </section>
+        <section id="caja-h">
+            <div class="container">
+                <div id="agend">
+                    <h3>Cosas Por Hacer</h3>
+                    <ol>
+                        <li>Reparar gotera </li>
+                        <li>Tanquear El Carro</li>
+                        <li>Llevar las sillas del cliente</li>
+                        <li>Organizar la casa</li>
+                        <li>Buscar a Liliana</li>
+                        <li>Dia de piscina</li>
+                        <li>Preparar los libros de la U </li>
+                    </ol>
+                </div>
+                <div id="horario">
+                    <h2>Horario de cosas por hacer</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="sinlinea">Lunes</th>
+                                <th>Martes</th>
+                                <th>Miercoles</th>
+                                <th>Jueves</th>
+                                <th>Viernes</th>
+                                <th>Sabado</th>
+                                <th>Domingo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="sinlineab" id="sinlinea">4</td>
+                                <td class="sinlineab">1</td>
+                                <td class="sinlineab">2</td>
+                                <td class="sinlineab">5</td>
+                                <td class="sinlineab">2</td>
+                                <td class="sinlineab">6</td>
+                                <td class="sinlineab">7</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacto">
+        <div>
+            <h2>Contacto</h2>
+            <form action="">
+                <label for="name">Nombre:</label>
+                <input type="text" name="nombre" id="name">
 
-    <h2>Mis Pasiones</h2>
-    <ul>
-        <li>Cocinar</li>
-        <li>Futbol</li>
-        <li>Viajar</li>
-    </ul>
+                <label for="Msj">Mensaje:</label>
+                <input type="text" name="Mensaje" id="Msj">
 
-    <h3>Cosas Por Hacer</h3>
-    <ol>
-        <li>Reparar gotera </li>
-        <li>Tanquear El Carro</li>
-        <li>Llevar las sillas del cliente</li>
-        <li>Organizar la casa</li>
-        <li>Buscar a Liliana</li>
-        <li>Dia de piscina</li>
-        <li>Preparar los libros de la U </li>
-    </ol>
+                <label for="email">Correo:</label>
+                <input type="email" name="Correo" id="email">
 
-    <table>
-        <thead>Horario de cosas por hacer</thead>
-        <tbody>
-            <tr>
-                <th>Lunes</th>
-                <th>Martes</th>
-                <th>Miercoles</th>
-                <th>Jueves</th>
-                <th>Viernes</th>
-                <th>Sabado</th>
-                <th>Domingo</th>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>1</td>
-                <td>2</td>
-                <td>5</td>
-                <td>2</td>
-                <td>6</td>
-                <td>7</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <h2>Contacto</h2>
-    <br>
-    <form action="">
-        <label for="name">Nombre:</label>
-        <input type="text" name="nombre" id="name">
+                <button type="submit">Enviar</button>
+            </form>
 
-        <label for="Msj">Mensaje:</label>
-        <input type="text" name="Mensaje" id="Msj">
+            <p>&copy;Todos los derechos reservados</p>
+        </div>
 
-        <label for="email">Correo:</label>
-        <input type="email" name="Correo" id="email">
-
-        <button type="submit">Enviar</button>     
-
-    </form>
-
-
-
-
+    </footer>
 </body>
 
 </html>
